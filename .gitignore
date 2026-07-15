@@ -1,5 +1,38 @@
-/data
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and operating-system files
+.idea/
+.vscode/
+.DS_Store
+
+# PyTorch models and training artifacts
+*.pt
+*.pth
+*.ckpt
+/checkpoints/
+/saved_models/
+/runs/
+
+# Generated data and external notebook checkout
+/data/
+/notebook/projet-3A/
+
+# Local scratch files
 code_to_text.py
 contexte_projet_code.txt
-/notebook/test_LSTM.ipynb
-/notebook/projet-3A
